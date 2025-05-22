@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans Devanagari', 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+header h2 {
+    color: #e74c3c;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.session {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 30px 0;
+}
+
+.courses h3 {
+    color: #16a085;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.course-category {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    border-left: 5px solid #16a085;
+}
+
+.course-category h4 {
+    color: #2980b9;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.course-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-category ul li {
+    background-color: #fff;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 1.1em;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.sender {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+#senderName {
+    font-weight: bold;
+    color: #333;
+}
+
+#whatsapp-share-button {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 25px; /* Pill shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    font-family: 'Noto Sans Devanagari', 'Arial', sans-serif; /* Ensure font consistency */
+}
+
+#whatsapp-share-button:hover {
+    background-color: #1EBE57; /* Darker WhatsApp Green */
+}
+
+#whatsapp-share-button i {
+    font-size: 1.3em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header h2 {
+        font-size: 1.5em;
+    }
+    .course-category h4 {
+        font-size: 1.2em;
+    }
+    #whatsapp-share-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
